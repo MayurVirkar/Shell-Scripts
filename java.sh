@@ -1,3 +1,5 @@
+#This is to install java on ubuntu system.
+#!/bin/sh
 sudo apt-get purge openjdk*
 sudo rm /var/lib/dpkg/info/oracle-java7-installer*
 sudo apt-get purge oracle-java7-installer*

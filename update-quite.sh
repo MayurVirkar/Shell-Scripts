@@ -1,3 +1,5 @@
+#same as update.sh but with less messages.. "quite"
+#!/bin/sh
 echo 'Starting update. Please Wait.'
 echo 'Updating apt-get repositories.'
 sudo apt-get -qq update
